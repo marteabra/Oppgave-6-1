@@ -159,7 +159,7 @@ export default {
       }
     },
 
-    //fetching data from "partly cloudy" image api/unsplash, manually picking index[7]
+    //fetching data from "partly cloudy" image api/unsplash, manually picking index[7] 
     async fetchBack() {
       const url = `https://api.unsplash.com/search/photos?query=${this.description}&client_id=TWlHBsRI4XqG8aWaT_ZleTAUvRK88x0rvMoCN_THO5g`;
       const response = await fetch(url);
